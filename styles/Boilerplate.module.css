@@ -15,8 +15,22 @@
 .logo{
     margin-left: 5px;
     margin-right: auto;
+    font-size: 2em;
 }
 .logo span{
     color: rgb(243, 172, 18);
+}
+@media screen and (max-width: 992px) {
+  .navbar-toggler{
+    height: 1em;  
+  }
+  .logo{
+    display: none;
+  }
+  .mainContainer{
+    color: black;
+    background: linear-gradient(to right, rgba(25, 40, 48, 0.5), rgba(27, 26, 32, 0.5)), url('/img/vecteezyabstract-background-panoramic-2RD0421-01_generated.jpg') no-repeat fixed;
+  }
+
 }
 

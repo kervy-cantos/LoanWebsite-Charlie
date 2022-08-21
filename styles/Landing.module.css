@@ -1,0 +1,11 @@
+.mainBody{
+    height: 91vh;
+    width: 99%;
+    background: linear-gradient(to right, rgba(25, 40, 48, 0.5), rgba(27, 26, 32, 0.5)), url("/img/hero-img.jpg") no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 1vh;
+    border-radius: 10px;
+  
+}

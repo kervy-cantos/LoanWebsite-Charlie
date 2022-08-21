@@ -1,15 +1,18 @@
 import styles from '/styles/Boilerplate.module.css';
+import Link from 'next/link';
 
 export default function Boilerplate() {
   return (
     <div className={styles.mainContainer}>
-      <a className={`navbar-brand ${styles.logo}`} href="#">
-        Char <span>Loan</span>
-      </a>
+      <Link href="/Landing">
+        <a className={`navbar-brand ${styles.logo}`}>
+          Char <span>Loan</span>
+        </a>
+      </Link>
       <nav className={`navbar navbar-expand-lg`}>
         <div className="container-fluid">
           <button
-            className="navbar-toggler"
+            className="navbar-toggler btn btn-outline-warning"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -17,7 +20,7 @@ export default function Boilerplate() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="text-black">MENU</span>
           </button>
           <div
             className="collapse navbar-collapse"
